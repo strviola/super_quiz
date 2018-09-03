@@ -4,7 +4,6 @@ class Foo
   end
 
   alias method_2 method_1
-  # alias_method :method_2, :method_1
 end
 
 class Bar < Foo
